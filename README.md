@@ -14,6 +14,12 @@ Webhook automations can create duplicate actions or silent failures when signatu
 
 This project demonstrates HMAC verification and a resilient event-processing architecture. The runnable demo proves that a valid payload is accepted while a tampered one is rejected.
 
+## Visual proof
+
+The visual below summarizes the **client problem, architecture, validation logic, and delivery outcomes** for this sanitized technical case study.
+
+![Shopify Webhook Automation visual proof](./screenshots/visual-proof-overview.png)
+
 ## Architecture
 
 ```mermaid
