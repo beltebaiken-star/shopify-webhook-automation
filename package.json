@@ -1,0 +1,8 @@
+{
+  "name": "shopify-webhook-automation-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node demo/verify-hmac.mjs"
+  }
+}
